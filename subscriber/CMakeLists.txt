@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(subscriber)
+set(SRC_LIST main.cpp Handler.cpp)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+add_executable(subscriber ${SRC_LIST})
+target_link_libraries(subscriber lcm)

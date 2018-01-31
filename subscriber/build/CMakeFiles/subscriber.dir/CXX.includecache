@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yasin/file/lcm_demo/BSMData.hpp
+lcm/lcm_coretypes.h
+-
+string
+-
+
+/home/yasin/file/lcm_demo/subscriber/Handler.cpp
+Handler.h
+/home/yasin/file/lcm_demo/subscriber/Handler.h
+iostream
+-
+
+/home/yasin/file/lcm_demo/subscriber/Handler.h
+string
+-
+lcm/lcm-cpp.hpp
+-
+../BSMData.hpp
+/home/yasin/file/lcm_demo/BSMData.hpp
+
+/home/yasin/file/lcm_demo/subscriber/main.cpp
+iostream
+-
+lcm/lcm-cpp.hpp
+-
+Handler.h
+/home/yasin/file/lcm_demo/subscriber/Handler.h
+

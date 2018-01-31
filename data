@@ -1,0 +1,6 @@
+struct BSMData
+{
+    int32_t id;
+    string name;
+    double score;
+}
